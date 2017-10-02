@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+	<wb-module deploy-name="fibcalc-ear">
+		<dependent-module deploy-path="/" handle="module:/resource/fibcalc-war/fibcalc-war">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/lib" handle="module:/resource/fibcalc-core/fibcalc-core">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/lib" handle="module:/resource/fibcalc-api/fibcalc-api">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/lib" handle="module:/resource/fibcalc-lib/fibcalc-lib">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>
