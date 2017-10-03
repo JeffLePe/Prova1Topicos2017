@@ -9,7 +9,7 @@ public class fibcalcServiceImpl implements fibcalcService{
 	@Override
 	public Result fib(int num) {
 		int result = FibonattiCalculation.fibonacci(num);
-		return new Result().withNum(num).withResult(result);
+		return new Result().withNumber(num).withResult(result);
 	}
 
 }

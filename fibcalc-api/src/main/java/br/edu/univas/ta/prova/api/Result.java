@@ -2,19 +2,19 @@ package br.edu.univas.ta.prova.api;
 
 public class Result {
 	
-	int num;
+	int number;
 	int result;
 	
-	public int getNum() {
-		return num;
+	public int getNumber() {
+		return number;
 	}
 	
-	public void setNum(int num) {
-		this.num = num;
+	public void setNumber(int number) {
+		this.number = number;
 	}
 	
-	public Result withNum(int num) {
-		this.num = num;
+	public Result withNumber(int number) {
+		this.number = number;
 		return this;
 	}
 	

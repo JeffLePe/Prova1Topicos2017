@@ -1,9 +1,9 @@
 package br.edu.univas.ta.prova.rest;
 
-import javax.ws.rs.Path;
+import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
-@Path("/rest")
+@ApplicationPath("/rest")
 public class RestApplication extends Application{
 
 }
