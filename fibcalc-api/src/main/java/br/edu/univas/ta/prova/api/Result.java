@@ -3,7 +3,7 @@ package br.edu.univas.ta.prova.api;
 public class Result {
 	
 	int number;
-	int result;
+	int fibonacci;
 	
 	public int getNumber() {
 		return number;
@@ -18,16 +18,16 @@ public class Result {
 		return this;
 	}
 	
-	public int getResult() {
-		return result;
+	public int getFibonacci() {
+		return fibonacci;
 	}
 	
-	public void setResult(int result) {
-		this.result = result;
+	public void setFibonacci(int fibonacci) {
+		this.fibonacci = fibonacci;
 	}
 	
-	public Result withResult(int result) {
-		this.result = result;
+	public Result withFibonacci(int fibonacci) {
+		this.fibonacci = fibonacci;
 		return this;
 	}
 

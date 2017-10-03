@@ -1,6 +1,6 @@
 package br.edu.univas.ta.prova.lib;
 
-public class FibonattiCalculation {
+public class FibonacciCalculation {
 	
 	 public static int fibonacci(int n) {
 	      int lo = 0;
